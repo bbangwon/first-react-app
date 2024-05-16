@@ -5,12 +5,12 @@ import Die from './Die';
 function App() {
   return (
   <div>
-    {/* <Greeter person="Bill" from="Colt" />
+    <Greeter person="Bill" from="Colt" />
     <Greeter person="Ted" from="Colt" />
-    <Greeter person="Rosa" from="Elton" /> */}
+    <Greeter from="Elton" />
     <Die numSides={20} />
     <Die />
-    <Die />
+    <Die numSides={10} />
   </div>
   );
 }
