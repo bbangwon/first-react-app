@@ -4,7 +4,9 @@ function ShoppingList({ items }) {
             <h2>Shopping List</h2>
             <ul>
                 {items.map((i) => (
-                    <li style={{
+                    <li 
+                    key={i.id} 
+                    style={{
                         color: i.completed ? "gray" : "red",
                         textDecoration: i.completed ? "line-through" : "none"
                     }}>
