@@ -4,6 +4,7 @@ import './App.css'
 // import ListPicker from './ListPicker';
 import DoubleDice from './DoubleDice';
 import Heading from './Heading';
+import ColorList from './ColorList';
 
 function App() {
   return (
@@ -22,6 +23,9 @@ function App() {
     <DoubleDice />
     <DoubleDice />
     <DoubleDice />
+
+    <ColorList colors={["red", "blue", "green", "yellow"]} />
+    <ColorList colors={["#333", "#666", "#999", "#CCC"]} />
   </div>
   );
 }
