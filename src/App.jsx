@@ -8,6 +8,7 @@ import './App.css'
 // import Slots from './Slots';
 // import ShoppingList from './ShoppingList';
 import PropertyList from './PropertyList';
+import Clicker from './Clicker';
 
 // const data = [
 //   {id: 1, item: 'eggs', quantity: 12, completed: false},
@@ -50,6 +51,7 @@ function App() {
     <Slots s1="🍉" s2="🍉" s3="🍉" /> */}
     {/* <ShoppingList items={data} /> */}
     <PropertyList properties={properties} />
+    <Clicker />
   </div>
   );
 }
