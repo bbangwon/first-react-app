@@ -53,7 +53,7 @@ function App() {
     {/* <ShoppingList items={data} /> */}
     <Form />
     <PropertyList properties={properties} />
-    <Clicker />
+    <Clicker message="HI!!!!" buttonText="Click Me" />
   </div>
   );
 }
