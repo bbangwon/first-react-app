@@ -31,7 +31,7 @@ import Counter from './Counter';
 function App() {
   return (
   <div>
-    <Counter num={1} />
+    <Counter />
     {/* <Greeter person="Bill" from="Colt" />
     <Greeter person="Ted" from="Colt" />
     <Greeter from="Elton" />
