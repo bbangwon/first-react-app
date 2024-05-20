@@ -12,6 +12,7 @@ import './App.css'
 // import Form from './Form';
 import Counter from './Counter';
 import Toggler from './Toggler';
+import ToggleCounter from './ToggleCounter';
 
 // const data = [
 //   {id: 1, item: 'eggs', quantity: 12, completed: false},
@@ -32,6 +33,7 @@ import Toggler from './Toggler';
 function App() {
   return (
   <div>
+    <ToggleCounter />
     <Toggler />
     <Counter />
     {/* <Greeter person="Bill" from="Colt" />
