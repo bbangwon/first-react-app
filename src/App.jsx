@@ -11,6 +11,7 @@ import './App.css'
 // import Clicker from './Clicker';
 // import Form from './Form';
 import Counter from './Counter';
+import Toggler from './Toggler';
 
 // const data = [
 //   {id: 1, item: 'eggs', quantity: 12, completed: false},
@@ -31,6 +32,7 @@ import Counter from './Counter';
 function App() {
   return (
   <div>
+    <Toggler />
     <Counter />
     {/* <Greeter person="Bill" from="Colt" />
     <Greeter person="Ted" from="Colt" />
